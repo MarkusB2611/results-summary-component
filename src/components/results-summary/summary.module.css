@@ -1,0 +1,60 @@
+
+.summary h2 {
+    color: #303B59;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    margin-left: 2px;
+    margin-bottom: 1.5rem;
+}
+
+.categories_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    color: black;
+}
+
+.category {
+    border-radius: 12px;
+    padding: 17px 16px 18px 16px;
+    font-weight: 500;
+    line-height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.Reaction {
+    color: #FF5555;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FF5555;
+}
+.Memory {
+    color: #FFB21E;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #FFB21E;
+}
+.Verbal {
+    color: #00BB8F;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #00BB8F;
+}
+.Visual {
+    color: #1125D6;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), #1125D6;
+}
+
+.score {
+    color: hsl(223deg 30% 27% / 0.5);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.points {
+    color: hsl(223deg 30% 27% / 1);
+}
+
